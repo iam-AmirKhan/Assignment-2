@@ -4,7 +4,9 @@
     margin: 0px;
     max-width: 1440px;
 }
-
+.text-primary{
+    color: #E95A08;
+}
 
 
 
@@ -17,24 +19,29 @@
     "wdth" 100;
 }
 
+
+.inter-font-size {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+   font-style: normal;
+}
+ /* navbar start here  */
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 30px 150px;
-    /* justify-content:space-between;
     height: 71px;
     width: 1140px;
-    margin: 30px 150px; */
+
 }
 
 .nav-left{
     width: 135px;
     height: 82px;
 }
-/* .nav-right{
-    /* margin-top: 53.5px;
-    font-size: 16px; */
+
 .nav-right ul{
     display:flex; 
 }
@@ -48,7 +55,7 @@
     text-decoration: none;  
     font-size: 16px;     
 }
-     /* navbar-right-color */
+     /* navbar-text-color */
 .clr-home{
     color: #252432;
     font-weight:bold;
@@ -60,3 +67,37 @@
     color: #000000;
 }
 
+/* banner section start  */
+
+.banner{
+    display: flex;
+    height: 461px;
+    width: 1140px;
+    margin:150px ;
+    align-items: end;
+
+
+}
+.banner-left{
+    width: 55%;
+
+
+
+
+}
+.font{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.inter-font-size{
+    font-size: 22px;
+    color: #000000;
+}
+
+.banner-right{
+ width: 570px;
+ height: 355px;
+ 
+
+}
