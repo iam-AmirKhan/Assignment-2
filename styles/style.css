@@ -107,6 +107,7 @@ grid-template-columns: repeat(4, 1fr);
 width: 1140px;
 margin-left: 150px;
 gap: 20px;
+margin-bottom: 210px;
 
 }
 .card{
@@ -142,7 +143,32 @@ gap: 20px;
   font-weight: 600;
 }
 
+/* plants lover section  */
 
+.plants-lover{
+ width: 1140px;
+ height: 597px;
+ display:flex;
+ margin-left: 150px;
+ margin-right: 150px;
+}
 
+.plants-left{
+height: 597px;
+width:540px;
+margin-right: 60px;
+}
+
+.plants-right{
+font-size: 30px;
+padding: 20px;
+margin: 20px;
+width: max-content;
+}
+.inter-clr{
+  color: #000000 50%;
+  font-size: 22px;
+  padding: 20px;
+}
 
 
