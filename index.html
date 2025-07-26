@@ -37,9 +37,9 @@
 
         <div class="nav-right">
           <ul>
-            <li class="li-hide-on-phone"><a class="clr-home" href="">Home</a></li>
-            <li class="li-hide-on-phone"><a class="cmn-2" href="">Shop</a></li>
-            <li class="li-hide-on-phone"><a class="cmn-2" href="">About Up</a></li>
+            <li class="hide"><a class="clr-home" href="">Home</a></li>
+            <li class="hide"><a class="cmn-2" href="">Shop</a></li>
+            <li class="hide"><a class="cmn-2" href="">About Up</a></li>
             <li>
               <a class="clr-cart" href=""
                 ><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a
@@ -55,7 +55,9 @@
       <div class="banner">
         <div class="banner-left">
           <div class="font noto-serif-font-name">
-            <h1>ALWAYS<span class="text-primary"> FRESH FLOWERS</span></h1>
+            <h1 class="banner-title">
+              ALWAYS<span class="text-primary"> FRESH FLOWERS</span>
+            </h1>
           </div>
           <p class="inter-font-size">
             Indulge your senses with the beauty and fragrance of our fresh
@@ -64,19 +66,22 @@
           </p>
         </div>
         <div class="banner-right">
-          <img src="./assets/hero-flower.png" alt="" />
+          <img class="banner-img" src="./assets/hero-flower.png" alt="" />
         </div>
       </div>
+
       <!-- plants section  -->
-      <div class="plants">
-        <h1 class=" plants-1 noto-serif-font-name">
-          <span class="text-primary"> Our</span> Plants
-        </h1>
-        <p class="inter-font-size">
-          Indulge your senses with the beauty and fragrance of our fresh flower
-          shop. From <br />
-          classic roses to exotic blooms, we offer a wide variety of fresh.
-        </p>
+      <div class="plants-center">
+        <div class="plants">
+          <h1 class="plants-1 noto-serif-font-name">
+            <span class="text-primary"> Our</span> Plants
+          </h1>
+          <p class="inter-font-size">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From <br />
+            classic roses to exotic blooms, we offer a wide variety of fresh.
+          </p>
+        </div>
       </div>
       <div class="card-grid">
         <div class="card">
@@ -134,11 +139,15 @@
       <!-- plants lover section  -->
       <div class="plants-lover">
         <div class="plants-left">
-          <img src="./assets/flower-store.png" alt=""/>
-          <img src="./assets/trusted-badge.png" class="badge" alt="">
+          <img
+            class="plants-lover-img"
+            src="./assets/flower-store.png"
+            alt=""
+          />
+          <img src="./assets/trusted-badge.png" class="badge" alt="" />
         </div>
         <div class="plants-right">
-          <h1 class="noto-serif-font-name">Flower & Plants Lover</h1>
+          <h1 class="noto-serif-font-name abcd">Flower & Plants Lover</h1>
           <div class="inter-clr">
             <ul class="inter-font-size">
               <li>
@@ -146,13 +155,13 @@
                 flower shop. From classic roses to exotic blooms, we offer a
                 wide variety of fresh.
               </li>
-              <br/>
+              <br />
               <li>
                 Indulge your senses with the beauty and fragrance of our fresh
                 flower shop. From classic roses to exotic blooms, we offer a
                 wide variety of fresh.
               </li>
-              <br/>
+              <br />
               <li>
                 Indulge your senses with the beauty and fragrance of our fresh
                 flower shop. From classic roses to exotic blooms, we offer a
@@ -164,7 +173,7 @@
       </div>
 
       <!-- latest deals  -->
-      <div class="latest-deals-title">
+      <div class="latest-deals-title discription-container">
         <div class="font-style">
           <h1 class="noto-serif-font-name">
             <span class="text-primary">Latest</span> Deals
@@ -182,7 +191,7 @@
         <div class="containerdiv">
           <div>
             <div class="card small container1">
-              <img src="./assets/deal-bloom.png" alt="" />
+              <img class="lets-do-img" src="./assets/deal-bloom.png" alt="" />
               <div class="container-text">
                 <h2>60% Off | Bloom Plant</h2>
                 <a href="">Shop Now</a>
@@ -192,7 +201,7 @@
 
           <div>
             <div class="card small container1">
-              <img src="./assets/deal-ana.png" alt="" />
+              <img class="lets-do-img" src="./assets/deal-ana.png" alt="" />
               <div class="container-text">
                 <h2>30% Off | Ana Plant</h2>
                 <a href=""> Shop Now </a>
@@ -202,18 +211,18 @@
         </div>
 
         <div class="card large container1">
-          <img src="./assets/deal-zabo.png" alt="" />
+          <img class="lets-do-img" src="./assets/deal-zabo.png" alt="" />
           <div class="container-text">
             <h2>25% Off | Zabo Plant</h2>
             <a href="">Shop Now</a>
           </div>
         </div>
       </div>
-
-<!-- Join the colorful Bunch  -->
-
-       <div class="container1 noto-serif-font-name footer-headline">
-        <img src="assets/news-letter-bg.png" alt="" />
+    </main>
+    <footer>
+      <!-- Join the colorful Bunch  -->
+      <!-- <div class="container1  noto-serif-font-name footer-headline">
+        <img class="join-img" src="assets/news-letter-bg.png" alt="" />
         <div class="container-text">
           Join the colorful Bunch
         <div class="in-line">
@@ -223,55 +232,59 @@
         <div>
         <button class="button">Subscribe</button>
         </div>
-        
-        
         </div>
+        </div> -->
+
+      <!-- join section container style -->
+      <section style="margin: 0 auto">
+        <div class="join-container">
+          <h2 class="join-title">Join the colorful Bunch</h2>
+          <div class="input-filter">
+            <input class="join-input" type="text" placeholder="Write email" />
+            <button class="join-btn">Subscribe</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- last one footer  -->
+      <div class="footer-abba">
+        <div class="footer-1">
+          <img src="./assets/logo.png" alt="" />
+          <p class="inter-font-size">
+            Indulge your senses with the <br />
+            beauty and fragrance of our fresh <br />flower shop.
+          </p>
         </div>
 
-    </main>
-    
-    <footer>
-
-          <!-- last one footer  -->
-           <div class="footer-abba">
-            
-            <div class="footer-1">
-              <img src="./assets/logo.png" alt="">
-              <p class="inter-font-size">Indulge your senses with the <br> beauty and fragrance of our fresh <br>flower shop. </p>
-            </div>
-
-            <div class="footer-2 inter-font-size">
+        <div class="footer-2 inter-font-size">
           <ul>
-                <a href="">Home</a>
-              <a href="">About Us</a>
-              <a href="">Blog</a>
-              <a href="">FAQ</a>
-              <a href="">Contact Us</a>
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Blog</a>
+            <a href="">FAQ</a>
+            <a href="">Contact Us</a>
           </ul>
-            </div>
+        </div>
 
-            <div class="footer-3 inter-font-size">
-            <ul>
-             <a href="">Features</a>
-             <a href="">Pricing</a>
-             <a href="">Privacy Policy</a>
-             <a href="">Terms of Service</a>
-             <a href="">Help Center</a>
-            </ul>
-            </div>
+        <div class="footer-3 inter-font-size">
+          <ul>
+            <a href="">Features</a>
+            <a href="">Pricing</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+            <a href="">Help Center</a>
+          </ul>
+        </div>
 
-            <div class="footer-4">
-                <div class="footer-container">
-                       
-       <img src="./assets/icon-linkedin.png" alt="">
-      <img src="./assets/icon-twitter.png" alt="">
-      <img src="./assets/icon-facebook.png" alt="">
-      <img src="./assets/icon-youtube.png" alt="">
-     
-                </div>
-            </div>
-
-           </div>
+        <div class="footer-4">
+          <div class="footer-container">
+            <img src="./assets/icon-linkedin.png" alt="" />
+            <img src="./assets/icon-twitter.png" alt="" />
+            <img src="./assets/icon-facebook.png" alt="" />
+            <img src="./assets/icon-youtube.png" alt="" />
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
